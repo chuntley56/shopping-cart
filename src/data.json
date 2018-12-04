@@ -1,0 +1,60 @@
+{
+    "products": [
+      {
+          "id": 1,
+          "status": "active",
+          "name": "PRODUCT 1",
+          "sku": "ABC-product1-123",
+          "slug": "product1",
+          "size_number": "6",
+          "is_sold_out": false,
+          "price": 8,
+          "size_unit": "ounce",
+          "abbr_size_unit": "oz",
+          "assets": {
+              "detail": {
+                  "file": {
+                      "url": "https://via.placeholder.com/208?text=Product1"
+                  }
+              }
+          }
+      },
+      {
+          "id": 2,
+          "status": "active",
+          "name": "PRODUCT 2",
+          "sku": "DEF-product2-456",
+          "slug": "product2",
+          "size_number": "9",
+          "is_sold_out": false,
+          "price": 3,
+          "size_unit": "ounce",
+          "abbr_size_unit": "oz",
+          "assets": {
+              "detail": {
+                  "file": {
+                      "url": "https://via.placeholder.com/208?text=Product2"
+                  }
+              }
+          }
+      },
+      {
+          "id": 3,
+          "status": "active",
+          "name": "PRODUCT 3",
+          "sku": "GHI-product3-789",
+          "slug": "product3",
+          "size_number": "16",
+          "is_sold_out": false,
+          "price": 12,
+          "size_unit": "ounce",
+          "abbr_size_unit": "oz",
+          "assets": {
+              "detail": {
+                  "file": {
+                      "url": "https://via.placeholder.com/208?text=Product3"
+                  }
+              }
+          }
+      }
+      ]}
