@@ -32,7 +32,7 @@ class App extends Component {
   }
 
   removeFromCart = (product) => {
-    const { cart, price, checkoutUrl } = this.state
+    const { cart } = this.state
       this.setState({
         cart: cart.filter(({ sku }) => sku !== product.sku)
       })
@@ -64,11 +64,6 @@ class App extends Component {
             {productTiles}
           </div>
         </div>
-        <h2>CheckoutURL</h2>
-        {checkoutUrl}
-        <br /><br /><br />
-        <h2>Cart</h2>
-        {JSON.stringify(cart, null, 2)}
       </div>
     )
   }
